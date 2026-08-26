@@ -1,0 +1,4 @@
+store_id,total_revenue,total_units,active_days,total_stockout_events
+STORE_A,4652430.92,121723,365,160
+STORE_B,4606076.44,121515,365,149
+STORE_C,4605789.32,120803,365,130

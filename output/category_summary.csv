@@ -1,0 +1,6 @@
+product_category,total_revenue,avg_daily_units,total_stockout_events,stockout_pct
+Electronics,6011848.42,37.4,90,8.4
+Clothing,2950474.29,68.3,79,7.31
+Home & Garden,2169651.97,31.1,89,8.3
+Groceries,1382668.45,150.5,83,7.66
+Toys,1349653.55,50.1,98,9.1
