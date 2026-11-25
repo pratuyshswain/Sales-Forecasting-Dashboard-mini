@@ -171,3 +171,7 @@ CREATE TABLE sales_predictions (
 ## License
 
 This is a prototype / demo project. Use freely.
+
+## Development notes
+
+Run in a virtual environment from the repository root. The pipeline writes local CSV, SQLite and chart outputs; back up any existing outputs before rerunning. Synthetic-data results are illustrative, not validated retail forecasts. A formal license file is pending ownership review; the existing usage statement above is retained.
