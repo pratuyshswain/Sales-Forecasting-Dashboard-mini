@@ -15,7 +15,7 @@ jobs:
       - run: docker run --rm --entrypoint python local-project -c 'import os; assert os.getuid() != 0'
       - name: Runtime smoke test
         run: |
-          docker run --name smoke local-project
+          docker run --name smoke --entrypoint sh local-project -ec 'rm -f /app/output/forecast_risk_dashboard.png /app/sales.db; exec python run_pipeline.py'
           docker cp smoke:/app/output/forecast_risk_dashboard.png /tmp/dashboard.png
           docker cp smoke:/app/sales.db /tmp/sales.db
           test -s /tmp/dashboard.png
